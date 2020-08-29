@@ -1,5 +1,16 @@
 # Vue-Element & Express 实现注册登录与权限验证功能
 
+## 项目内容
+> express 注册、登录、验证中间件
+> 
+> bcrypt 密码加密
+> 
+> jwt token 设置与验证
+> 
+> axios 请求拦截
+> 
+> vue-router 路由守卫
+
 ## 前端项目启动
 ```
 cd vuepage
