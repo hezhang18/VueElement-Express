@@ -44,7 +44,7 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   const isToken = sessionStorage.elementToken ? true : false;
   if(to.path == '/login' || to.path == '/register') {
-    isToken ? next('/index') : next()
+    next()
   }else{
     isToken ? next() : next('/login')
   }
