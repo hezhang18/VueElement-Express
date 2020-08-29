@@ -18,4 +18,4 @@ npm install
 npm run server
 ```
 
-### 使用前需安装 MongoDB 数据库，并在 /server/app/config/db.js 文件中配置确保能正常连接到数据库。
+> 使用前需安装 MongoDB 数据库，并在 /server/app/config/db.js 文件中配置确保能正常连接到数据库。
